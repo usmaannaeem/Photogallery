@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>              </title>
+<link rel="stylesheet" href="main.css" type="text/css"> 
+
+</head>
+
+
+<body>
+<header>  
+<input type="search" name="search" id="search" placeholder="Search" onkeyup="myFunction()">
+</header>
+
+<ul id="List">
+  <li> <img src="photos/01.jpg"  id="img"  onclick="openModal();currentSlide(1)" >  </li>
+<li>  <h1 class="Hay"> Hay</h1>  <img src="photos/02.jpg"  id="img" class="title"   caption="Mountain"  onclick="openModal();currentSlide(2)" > Hay        </a>  </li>
+<li>  <img src="photos/03.jpg"  id="img"  class="title"  onclick="openModal();currentSlide(3)" >                   </a></li>
+<li> <a href="">  <img src="photos/04.jpg" id="img"   class="title"  onclick="openModal();currentSlide(4)" >           </a></li>
+<li> <a href=" ">   <img src="photos/05.jpg"  id="Img"  class="title"  onclick="openModal();currentSlide(5)" >           </a></li>
+<li> <a href="   "> <img src="photos/06.jpg"  id="Img"   class="title" onclick="openModal();currentSlide(6)" >           </a> </li>
+<li> <a href="   "> <img src="photos/07.jpg"  id="Img"    class="title" onclick="openModal();currentSlide(7)" >           </a> </li>
+<li>              <img src="photos/08.jpg" id="Img"    class="title" onclick="openModal();currentSlide(8)" >                       </a>   </li>
+<li><img src="photos/09.jpg"   id="Img"    onclick="openModal();currentSlide(9)" >                        </a>      </li>
+<li><img src="photos/10.jpg"   id="Img"    onclick="openModal();currentSlide(10)">                        </a>        </li>
+<li><img src="photos/11.jpg"   id="Img"    onclick="openModal();currentSlide(11)">                         </a>          </li>
+<li><img src="photos/12.jpg"   id="Img"    onclick="openModal();currentSlide(12)">                             </a>         </li>
+</ul> 
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="photos/01.jpg" class="img" >
+      <caption> Took this snap on a drive through the countryside past some straw fields.</caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="photos/02.jpg" class="img">
+      <caption>
+        The lake was so calm today. We had a great view of the snow on the mountains from here. </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="photos/03.jpg" class="img">
+      <caption> I hiked to the top of the mountain and got this picture of the canyon and trees below.</caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 12</div>
+      <img src="photos/04.jpg" class="img">
+      <caption>  It was amazing to see an iceberg up close, it was so cold but didn’t snow today.                                     </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="photos/05.jpg" class="img">
+      <caption>
+        The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="photos/06.jpg" class="img">
+      <caption>  
+        Fall is coming, I love when the leaves on the trees start to change color.                                                   </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="photos/07.jpg"  class="img">
+      <caption> I drove past this plantation yesterday, everything is so green!                                         </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="photos/08.jpg" class="img">
+      <caption>   My summer vacation to the Oregon Coast. I love the sandy dunes!                                               </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="photos/09.jpg" class="img">
+      <caption>  We enjoyed a quiet stroll down this countryside lane.                                                        </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"> 10 / 12</div>
+      <img src="photos/10.jpg" class="img">
+      <caption>    
+        Sunset at the coast! The sky turned a lovely shade of orange.
+                                                       </caption>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="photos/11.jpg" class="img">
+<caption>   
+  I did a tour of a cave today and the view of the landscape below was breathtaking.  </caption>
+
+
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="photos/12.jpg" class="img">
+      <caption>  I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in. </caption>
+    </div>
+
+<!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+</div>
+</div>
+
+<script src="js/search.js">           </script>
+
+</body>
+</html>
+
+<!--   
+
+
+
+
+Retail 
+
+Dear sir/madam 
+
+I want to apply for the general assistant position as seen on your website at www.showcaseleeds.com. 
+
+I am interested to work here because watching movies with families are exciting and a good way to relax and switch off from the world.  
+This cinema has everything i want my career to have. The amazing atmosphere, friendly staff and benefits like discounted tickets for watching big block buster films. 
+Also the duties i will get as a general assistant are exciting and will help me grow as a person. 
+
+Over the past few years I have worked as a catalogue distributor for Betterware and 
+furniture packer for MA living. This has developed my sales and customer service skills.
+My best achievement has been when I gained back the trust of an angry customer by staying
+calm, empathetic and making a good decision of a refund which resulted in more sales.  
+Other experiences such as winning a customer also happened.  
+
+Even though I have very little retail experience, i believe that my past experience in sales and customer
+service combined with your support will help me become a successful general assistant and 
+ an asset to this company.  
+
+ Thankyou for this opportunity and I look forward to hearing from you soon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I have a deep passion for films, I also come here with family alot which has 
+helped me fall in love with its amazing atmosphere, movie theatres and staff members.
+
+
+Over the past few years I have worked as a catalogue distributor for Betterware and 
+furniture packer for MA living. This has developed my sales and customer service skills.
+My best achievement has been when I gained back the trust of an angry customer by staying
+calm, empathetic and making a good decision of a refund which resulted in more sales.  
+Other experiences such as winning a customer  
+
+Even though I have very little retail experience, my past experience in sales and customer
+ service combined with your support will help me become a successful general assistant and 
+ an asset to this company.  
+
+I look forward to hearing from you. 
+
+
+what are you applying for 
+Why do you want to work here, 
+what experience have i got
+why should the company choose you / conclusion 
+
+
+Sales 
+
+Dear Sir/madam 
+I want to apply for the fundraising position as seen on your RSPB website. 
+
+I want to apply because this charity shares the same passion as me, helping wildlife and the environment.
+ My previous skills match perfectly 
+
+
+Over the years I have worked on my sales skills which have helped me make £2000 in 2 years. 
+It has also taught me how to deal with diffciult customers 
+
+
+
+Why am i applying for this job? what excites me 
+Experience i have 
+Thanking the manager for the time and consideration 
+
+
+
+
+
+
+
+
+
+
+-->
